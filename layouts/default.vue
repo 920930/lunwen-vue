@@ -1,7 +1,7 @@
 <template>
   <slot name="header"></slot>
   <main class="bg-slate-100">
-    <section class="container mx-auto">
+    <section class="container mx-auto flex py-5">
       <slot />
     </section>
   </main>
